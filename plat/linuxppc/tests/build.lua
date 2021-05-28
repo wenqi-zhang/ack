@@ -5,6 +5,7 @@ plat_testsuite {
     plat = "linuxppc",
     method = "plat/linuxppc/emu+emuppc",
     skipsets = {
+	"floats",
         "long-long",
     },
 }
