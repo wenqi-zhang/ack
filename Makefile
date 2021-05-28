@@ -5,17 +5,17 @@
 
 # What platform to build for by default?
 
-DEFAULT_PLATFORM = pc86
+DEFAULT_PLATFORM = cpm
 
 # Where should the ACK put its temporary files?
 
-ACK_TEMP_DIR = /tmp
+ACK_TEMP_DIR = /data/data/com.termux/files/usr/tmp
 
 # Where is the ACK going to be installed, eventually? If you don't want to
 # install it and just want to run the ACK from the build directory
-# (/tmp/ack-build/staging, by default), leave this as $(INSDIR).
+# (/data/data/com.termux/files/usr/tmp/ack-build/staging, by default), leave this as $(INSDIR).
 
-PREFIX = /usr/local
+PREFIX = /data/data/com.termux/files/home/ack
 #PREFIX = $(INSDIR)
 
 # Where do you want to put the object files used when building?

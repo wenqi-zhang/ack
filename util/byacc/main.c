@@ -216,7 +216,7 @@ create_file_names()
     char *tmpdir;
 
     tmpdir = getenv("TMPDIR");
-    if (tmpdir == 0) tmpdir = "/tmp";
+    if (tmpdir == 0) tmpdir = "/data/data/com.termux/files/usr/tmp";
 
     len = strlen(tmpdir);
     i = len + 13;

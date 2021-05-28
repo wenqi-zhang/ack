@@ -25,7 +25,7 @@
 
 static int tmpfil(void)
 {
-	static char namebuf[] = "/tmp/plf.xxxxx";
+	static char namebuf[] = "/data/data/com.termux/files/usr/tmp/plf.xxxxx";
 	int i;
 	char *p, *q;
 

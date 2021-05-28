@@ -608,7 +608,7 @@ get_next_arg: /* used by -C and -S flags in lieu of a "continue 2" control */
 	static char temp_action_file_name[32];
 
 #ifndef SHORT_FILE_NAMES
-	(void) strcpy( temp_action_file_name, "/tmp/flexXXXXXX" );
+	(void) strcpy( temp_action_file_name, "/data/data/com.termux/files/usr/tmp/flexXXXXXX" );
 #else
 	(void) strcpy( temp_action_file_name, "flexXXXXXX.tmp" );
 #endif

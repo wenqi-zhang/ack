@@ -88,11 +88,11 @@ files are created.
 .br
 .IR y.output
 .br
-.IR /tmp/yacc.aXXXXXX
+.IR /data/data/com.termux/files/usr/tmp/yacc.aXXXXXX
 .br
-.IR /tmp/yacc.tXXXXXX
+.IR /data/data/com.termux/files/usr/tmp/yacc.tXXXXXX
 .br
-.IR /tmp/yacc.uXXXXXX
+.IR /data/data/com.termux/files/usr/tmp/yacc.uXXXXXX
 .SH DIAGNOSTICS
 If there are rules that are never reduced, the number of such rules is
 reported on standard error.

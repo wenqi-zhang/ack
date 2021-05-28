@@ -40,8 +40,8 @@ extern FILE	__stdin, __stdout, __stderr;
 
 #define	FILENAME_MAX 255
 #define	TMP_MAX     999
-#define	L_tmpnam    (sizeof("/tmp/") + 15)
-#define ACK_TMP_PREFIX "/tmp/tmp."
+#define	L_tmpnam    (sizeof("/data/data/com.termux/files/usr/tmp/") + 15)
+#define ACK_TMP_PREFIX "/data/data/com.termux/files/usr/tmp/tmp."
 
 extern int __fillbuf(FILE *_stream);
 extern int __flushbuf(int _c, FILE *_stream);

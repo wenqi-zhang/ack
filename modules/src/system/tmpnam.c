@@ -11,6 +11,11 @@
  */
 char* sys_tmpnam(char *buffer)
 {
-	return tmpnam(buffer);
+	int fd,ret;
+	strcpy(buffer,"/data/data/com.termux/files/usr/tmp/XXXXXX");
+	fd=mkstemp(buffer);
+	ret=((fd==-1)?0:1);
+	close(fd);
+	return ret;
 }
 

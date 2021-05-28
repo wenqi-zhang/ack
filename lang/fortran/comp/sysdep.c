@@ -40,7 +40,7 @@ char link_msg[]		= "-lF77 -lI77 -lm -lc";
 #ifdef MSDOS
 #define TMPDIR ""
 #else
-#define TMPDIR "/tmp"
+#define TMPDIR "/data/data/com.termux/files/usr/tmp"
 #endif
 #endif
 

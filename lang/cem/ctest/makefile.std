@@ -28,13 +28,13 @@ $P.cem.r: $P.cem
 	echo running $P.cem
 	-$(RUN) $P.cem >$P.cem.r
 	rm -f $P.cem
-$P.pcc: /tmp
+$P.pcc: /data/data/com.termux/files/usr/tmp
 	echo pcc $P.c
 	pcc -o $P.pcc $P.c
-$P.cc: /tmp
+$P.cc: /data/data/com.termux/files/usr/tmp
 	echo cc $P.c
 	cc -o $P.cc $P.c
-$P.cem: /tmp
+$P.cem: /data/data/com.termux/files/usr/tmp
 	echo compiling $P.c
 	$(CEM) -o $P.cem  $P.c 1>/dev/null
 gen:    $P.cem.r

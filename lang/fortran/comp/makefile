@@ -73,7 +73,7 @@ b = Notice README cds.c data.c defines.h defs.h equiv.c error.c \
 	sysdep.c sysdep.h tokens usignal.h vax.c version.c xsum.c
 
 bundle:
-	bundle $b xsum0.out >/tmp/f2c.bundle
+	bundle $b xsum0.out >/data/data/com.termux/files/usr/tmp/f2c.bundle
 
 xsum: xsum.c
 	$(CC) -o xsum xsum.c

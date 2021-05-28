@@ -49,8 +49,11 @@ string libpath(string s)
 
 void TMPNAM(string result)
 {
-   if (tmpnam(result)==NULL)
+   int fd;
+   strcpy(result,"/data/data/com.termux/files/usr/tmp/XXXXXX");
+   if ((fd=mkstemp(result))==-1)
    {
 	   fatal(1, "Cannot create temporary file.", NULL);
    }
+   close(fd);
 }

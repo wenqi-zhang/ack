@@ -29,8 +29,8 @@ PATH=/v/bin:/bin:/usr/bin
 
 #		-Ntnnn		allow nnn entries in table t
 
-s=/tmp/stderr_$$
-t=/tmp/f77_$$.o
+s=/data/data/com.termux/files/usr/tmp/stderr_$$
+t=/data/data/com.termux/files/usr/tmp/f77_$$.o
 CC=${CC_f2c:-'/v/bin/lcc -Wfdouble=8,4,1'}
 EFL=${EFL:-/v/bin/efl}
 EFLFLAGS=${EFLFLAGS:-'system=portable deltastno=10'}
