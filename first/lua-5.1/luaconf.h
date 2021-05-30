@@ -645,7 +645,7 @@ union luai_Cast { double l_d; long l_l; };
 
 #if defined(LUA_USE_MKSTEMP)
 #include <unistd.h>
-#define LUA_TMPNAMBUFSIZE	32
+#define LUA_TMPNAMBUFSIZE	64
 #define lua_tmpnam(b,e)	{ \
 	strcpy(b, "/data/data/com.termux/files/usr/tmp/lua_XXXXXX"); \
 	e = mkstemp(b); \
