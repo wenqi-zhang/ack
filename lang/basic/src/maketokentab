@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/data/data/com.termux/files/usr/bin/sh
 
 $1 -s "${2:-Lpars.h}" > $3 <<'+'
 1d

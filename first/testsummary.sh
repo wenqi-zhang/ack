@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/data/data/com.termux/files/usr/bin/sh
 echo ""
 
 if [ "$1" = "" ]; then

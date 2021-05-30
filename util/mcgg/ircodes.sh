@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/data/data/com.termux/files/usr/bin/sh
 
 in=$1
 header=$2

@@ -145,6 +145,10 @@ $(our-lua): CFLAGS += -DLUA_USE_MACOSX
 endif
 endif
 
+# Turn on the following two lines for old android version
+$(our-lua): CFLAGS += -DUSE_STANDALONE_GLOB
+$(our-lua): LDFLAGS += -llog
+
 $(our-lua): first/lua-5.1/*.c first/lua-5.1/*.h
 	@echo Bootstrapping build
 	@mkdir -p $(BUILDDIR)
